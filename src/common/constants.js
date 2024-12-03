@@ -1,0 +1,1 @@
+export const BASE_API_URL = 'http://localhost:8082'; // This is the URL of the backend API
