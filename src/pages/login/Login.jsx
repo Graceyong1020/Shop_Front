@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { Link, useNavigate } from "react-router-dom";
-import User from "../../model/User";
-import { loginService } from "../../services/auth.service";
+import User from "../../model/User.js";
+import { loginService } from "../../services/Auth.service.js"; 
 import { setCurrentUser } from "../../store/actions/user";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faUserCircle } from "@fortawesome/free-solid-svg-icons";
